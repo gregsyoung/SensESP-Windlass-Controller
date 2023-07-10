@@ -134,7 +134,7 @@ void setup() {
   sensesp_app = (&builder)
                     // Set a custom hostname for the app.
                     ->set_hostname("sensESP_windlass_chain_counter")
-                   ->set_wifi("fbi", "younghomewifi")
+                   ->set_wifi("ssid", "password")
                     ->set_sk_server("192.168.1.77", 80)
                     ->get_app();
 
