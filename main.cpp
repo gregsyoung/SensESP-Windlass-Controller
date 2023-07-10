@@ -41,11 +41,6 @@ reactesp::ReactESP app;
 const uint8_t chainCounterPin = 23;
 const uint8_t chainSpeedPin = 22;
 
-// Define the PIN for Relay goUP (output)
-const uint8_t goUpPin = 19;
-
-// Define the PIN for Relay goDown (output)
-const uint8_t goDownPin = 4;
 
 // Define the PIN for detecting windlass direction goingUp
 const uint8_t goingUpPin = 16;
